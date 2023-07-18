@@ -1,4 +1,5 @@
 const { chromium } = require('playwright');
+const cron = require('node-cron');
 const { sendEmail } = require('./services/emailService');
 
 const url = 'https://titulosvalidez.educacion.gob.ar/validez/detitulos';
